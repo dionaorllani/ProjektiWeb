@@ -37,7 +37,7 @@ p{
 }
 body{
     width: 100%;
-    background-color: rgb(247, 225, 229);
+    background-color: rgb(243, 201, 210);
 }
 #header{
     display: flex;
@@ -47,3 +47,42 @@ body{
     background-color: white;  
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    /* Ne menyre qe me na funksionu possition: absolute; tek femija i ketij elementi */
+    position: relative; 
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:  rgb(95, 99, 104);
+    transition: 0.3s ease;
+
+}
+#navbar li a:hover,
+#navbar li a.current{
+    color: rgb(235, 156, 169);
+}
+
+#navbar li a.current::after,
+#navbar li a:hover::after{
+    content:"";
+    width: 30%;
+    height: 2px;
+    background: rgb(235, 156, 169);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+
+
+
