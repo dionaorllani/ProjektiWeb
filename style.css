@@ -40,12 +40,19 @@ body{
     background-color: rgb(243, 201, 210);
 }
 #header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1px 70px;
-    background-color: white;  
+    background-color: rgb(255, 255, 255);  
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+.logo{
+    height: 100px;
 }
 #navbar{
     display: flex;
@@ -62,7 +69,7 @@ body{
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color:  rgb(95, 99, 104);
+    color:  rgb(37, 39, 39);
     transition: 0.3s ease;
 
 }
@@ -83,9 +90,35 @@ body{
 }
 /* Home Page */
 #hero{
-    background-image:  url();
+    background-image:  url("img/diona.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% rigth 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
-
+#hero h4{
+    padding-bottom: 15px;
+}
+#hero h1{
+    color: rgb(177, 113, 124);
+}
+#hero button{
+    background-color: rgb(177, 113, 124); 
+    border: none;
+    color: rgb(37, 39, 39);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
 
 
 
