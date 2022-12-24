@@ -242,7 +242,7 @@ body{
     border:1px solid rgb(177, 113, 124);
     
 }
-#banner3{ 
+#banner3{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -279,3 +279,5 @@ body{
     font-weight:800;
     font-size: 15px;
 }
+
+
