@@ -297,10 +297,10 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("");
+    height: 25vh;
     background-repeat: no-repeat;
     background-position:20% 30%;
-    background-color: #041e42;
+    background-color: #818488;
 }
 
 #newsletter h4{
@@ -311,17 +311,15 @@ body{
 #newsletter p{
     font-size: 14px;
     font-weight: 600;
-    color:#818ea0
+    color:#3f4247
 }
 #newsletter p span{
-    color:#ffbd27
+    color:rgb(252, 102, 127)
 }
 #newsletter .form{
     display: flex;
     width:40%;
 }
-
-
 #newsletter input{
     height: 3.125rem;
     padding: 0 1.25em;
@@ -334,7 +332,7 @@ body{
     border-bottom-right-radius: 0;
 }
 #newsletter button{
-    background-color: #e04193;
+    background-color: rgb(177, 113, 124);
     color: #fff;
     white-space: nowrap;
     border-top-left-radius: 0;
