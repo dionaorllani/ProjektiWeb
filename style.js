@@ -10,6 +10,6 @@ function krijoSlider(){
     if(index == vargu.length){
         index = 0;
     }
-    setTimeout("krijoSlider()", 1500); 
+    setTimeout("krijoSlider()", 2000); 
 }
 krijoSlider();
