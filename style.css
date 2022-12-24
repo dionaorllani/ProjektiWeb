@@ -207,11 +207,9 @@ body{
     flex-wrap:wrap;
 
 }
-
-
 #sm-banner  .banner-box{
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url("");
@@ -221,7 +219,6 @@ body{
     background-position: center;
     padding:30px;
 }
-
 #sm-banner h4{
     color:#fff;
     font-size:20px;
