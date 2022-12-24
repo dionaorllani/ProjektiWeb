@@ -1,15 +1,18 @@
-var vargu = [
+//SliderBanner
+var array = [
     'img/SliderBanner/Banner1.jpg',
     'img/SliderBanner/Banner2.jpg',
     'img/SliderBanner/Banner3.jpg'
 ]
 var index = 0;
 
-function krijoSlider(){
-    document.getElementById('banner').src = vargu[index++];
-    if(index == vargu.length){
+function Slider(){
+    document.getElementById('banner').src = array[index++];
+    if(index == array.length){
         index = 0;
     }
-    setTimeout("krijoSlider()", 2000); 
+    setTimeout("Slider()", 2000); 
 }
-krijoSlider();
+Slider();
+
+//SingleProduct Slider
