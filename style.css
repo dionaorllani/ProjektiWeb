@@ -35,18 +35,6 @@ p{
 .section-m1{
     margin: 40px 0;
 }
-.normal{
-    font-size: 14px;
-    font-weight: 600;
-    padding:15px 30px;
-    color:rgb(2, 2, 2);
-    background-color: #fff;
-    border-radius: 4px;
-    cursor:pointer;
-    border:none;
-    outline:none;
-    transition:0.2s;
-}
 body{
     width: 100%;
     background-color: rgb(248, 248, 248);
@@ -292,16 +280,7 @@ body{
     font-size: 15px;
 }
 
-#newsletter{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 25vh;
-    background-repeat: no-repeat;
-    background-position:20% 30%;
-    background-color: #818488;
-}
+
 
 #newsletter h4{
     font-size: 22px;
@@ -337,39 +316,4 @@ body{
     white-space: nowrap;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-}
-footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-footer .logo{
-    margin-bottom: 30px;
-}
-footer h4{
-    font-size:14px;
-    padding-bottom: 20px;
-}
-footer p{
-    font-size:13px;
-    margin: 0 0 8px 0;
-}
-footer a{
-    font-size:13px;
-    text-decoration: none;
-    color:#222;
-    margin-bottom: 10px;
-}
-footer .follow i{
-    color:#465b52;
-    padding-right: 4px;
-    cursor:pointer;
-}
-footer .follow i:hover,
-footer a:hover{
-    color: rgb(177, 113, 124);
 }
