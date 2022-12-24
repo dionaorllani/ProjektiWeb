@@ -203,17 +203,15 @@ body{
 }
 #sm-banner{
     display:flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap:wrap;
 }
-
-
 #sm-banner  .banner-box{
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("");
+    background-image: url("img/Banners/slider-img2.jpg");
     min-width:580px;
     height: 50vh;
     background-size: cover;
@@ -221,7 +219,7 @@ body{
     padding:30px;
 }
 #sm-banner  .banner-box2{
-    background-image: url("");
+    background-image: url("img/Banners/GrayClothing.jpg");
 }
 
 #sm-banner h4{
@@ -252,8 +250,8 @@ body{
     transition:0.2s;
 }
 #sm-banner .banner-box:hover button{
-    background: #088178;
-    border:1px solid #088178
+    background: rgb(177, 113, 124);
+    border:1px solid rgb(177, 113, 124);
     
 }
 #banner3{
@@ -268,7 +266,7 @@ body{
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    background-image: url("");
+    background-image: url("img/Banners/GroupModels.jpg");
     min-width:30%;
     height: 30vh;
     background-size: cover;
@@ -277,10 +275,10 @@ body{
     margin-bottom: 20px;
 }
 #banner3 .banner-box2{
-    background-image: url("");
+    background-image: url("img/Banners/AppleModel.jpg");
 }
 #banner3 .banner-box3{
-    background-image: url("");
+    background-image: url("img/Banners/slider-img3.jpg");
 }
 
 #banner3 h2{
@@ -289,7 +287,7 @@ body{
     font-size: 22px;
 }
 #banner3 h3{
-    color:rgb(204, 52, 52);
+    color:rgb(252, 102, 127);
     font-weight:800;
     font-size: 15px;
 }
