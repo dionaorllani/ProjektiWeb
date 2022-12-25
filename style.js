@@ -15,4 +15,3 @@ function Slider(){
 }
 Slider();
 
-//SingleProduct Slider
