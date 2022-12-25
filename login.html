@@ -40,10 +40,10 @@
 			<div class="form-group">
 				<label for="password">Password</label>
 				<div class="input-group">
-					<input type="password" pattern=".{8,}" id="password" placeholder="Your password">
+					<input type="password" pattern="^[A-Z]{1}[a-z]{1,}[0-9]{1}$" id="password" placeholder="Your password">
 					<i class='bx bx-lock-alt' ></i>
 				</div>
-				<span class="help-text">At least 8 characters</span>
+				<span class="help-text">Should start with an uppercase letter and end with a number</span>
 			</div>
 			<button type="submit" class="btn-submit">Login</button>
 			<a href="#">Forgot password?</a>
@@ -62,16 +62,16 @@
 			<div class="form-group">
 				<label for="password">Password</label>
 				<div class="input-group">
-					<input type="password" pattern=".{8,}" id="password" placeholder="Your password">
+					<input type="password" pattern="[A-Z]{1}[a-z]{1,}[0-9]{1}$" id="password" placeholder="Your password">
 					<i class='bx bx-lock-alt' ></i>
 				</div>
-				<span class="help-text">At least 8 characters</span>
+				<span class="help-text">Should start with an uppercase letter and end with a number</span>
 			</div>
 			<div class="form-group">
 				<label for="confirm-pass">Confirm password</label>
 				<div class="input-group">
 					<input type="password" id="confirm-pass" placeholder="Enter password again">
-					<i class='bx bx-lock-alt' ></i>
+					<i class='bx bx-lock-alt'></i>
 				</div>
 				<span class="help-text">Confirm password must be same with password</span>
 			</div>
