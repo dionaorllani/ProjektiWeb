@@ -520,14 +520,17 @@ footer a:hover{
     border: 1px solid rgb(209, 203, 206);
     border-radius: 4px;
 }
-#form-details form{
+.input-group{
     width: 65%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-#form-details form input,
-#form-details form textarea{    
+.input-group label{
+    flex-basis: 28%;
+}
+.input-group input,
+.input-group textarea{    
     width: 100%;
     padding: 12px 15px;
     outline: none;
@@ -535,6 +538,19 @@ footer a:hover{
     border: 1px solid rgb(209, 203, 206);
     border-radius: 4px;
 }
+.input-group span{
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color: red; 
+ }
+ #submit-error{
+     color: red; 
+ }
+ .input-group i{
+     color: green;
+ }
 
 /* Cart Page*/
 #cart table{

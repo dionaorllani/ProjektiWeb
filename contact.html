@@ -58,14 +58,31 @@
     </section>
 
     <section id="form-details">
-        <form action="">
+        <form>
             <span>LEAVE A MESSAGE</span>
             <h2>We would love to hear from you!</h2>
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="Reason">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <button class="normal">Submit</button>
+            <div class="input-group">
+                <input type="text" placeholder="Your name" id="contact-name" onkeyup="validateName()">
+                <span id="name-error"></span>
+              </div>
+        
+              <div class="input-group">
+                <input type="tel" placeholder="Phone" id="contact-phone" onkeyup="validatePhone()">
+                <span id="phone-error"></span>
+              </div>
+        
+              <div class="input-group">
+                <input type="email" placeholder="E-mail" id="contact-email" onkeyup="validateEmail()">
+                <span id="email-error"></span>
+              </div>   
+        
+              <div class="input-group">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" id="contact-message" onkeyup="validateMessage()"></textarea>
+                <span id="message-error"></span>
+              </div>
+        
+            <button class="normal" onclick=" return validateForm()">Submit</button>
+            <span id="submit-error"></span>
         </form>
     </section>
 
@@ -114,5 +131,7 @@
             <a href="contact.html">Help</a>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
