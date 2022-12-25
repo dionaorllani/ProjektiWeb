@@ -120,6 +120,7 @@ body{
 #hero button{
     background-color: rgb(177, 113, 124); 
     border: none;
+    border-radius: 4px;
     color: rgb(37, 39, 39);
     padding: 15px 32px;
     text-align: center;
@@ -455,9 +456,6 @@ footer a:hover{
 #page-header .about-header{
     background-color: #767879;
 }
-#about-head p{
-    padding-bottom: 10px;
-}
 #about-head{
     display: flex;
     align-items: center;
@@ -469,6 +467,81 @@ footer a:hover{
 #about-head div{
     padding-left: 40px;
 }
+
+/* Contact Page */
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact-details .details{
+    width: 40%;
+}
+#contact-details .details span,
+#form-details form span{
+    font-size: 12px;
+}
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 20px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+#contact-details .details p{
+    font-size: 14px;
+    margin: 0;
+}
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+#form-details{
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid rgb(209, 203, 206);
+    border-radius: 4px;
+}
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details form input,
+#form-details form textarea{    
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid rgb(209, 203, 206);
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
