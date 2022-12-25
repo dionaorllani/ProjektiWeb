@@ -451,5 +451,24 @@ footer a:hover{
     line-height: 25px;
 }
 
+/* About Page */
+#page-header .about-header{
+    background-color: #767879;
+}
+#about-head p{
+    padding-bottom: 10px;
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head div{
+    padding-left: 40px;
+}
+
 
 
