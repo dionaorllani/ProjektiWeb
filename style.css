@@ -339,14 +339,16 @@ footer{
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    align-items: flex-start;
     margin-bottom: 20px;
     padding: 80px 300px;
+}
+footer .follow{
+    margin-top: 20px;
 }
 footer .col{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 20px;
 }
 footer .logo{
