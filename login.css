@@ -8,20 +8,14 @@
 	--red: #FE2727;
 	--light-red: #FFD2D2;
 
-	--blue: #277FFE;
-	--light-blue: #B6C6FF;
-	--dark-blue: #1368E3;
-
 	--bs: #b7b3b8;
 	--text: #9B9B9B;
 }
-
 a {
 	color: rgb(235, 156, 169);;
 	transition: all .3s ease;
 	text-decoration: none;
 }
-
 a:hover {
 	color: rgb(235, 156, 169);
 }
@@ -32,8 +26,9 @@ a:hover {
 	max-width: 500px;
 	width: 100%;
 	position: relative;
+	left: 30%;
 }
-form {
+form{
 	width: 100%;
 	padding: 28px;
 	border-radius: 12px;
